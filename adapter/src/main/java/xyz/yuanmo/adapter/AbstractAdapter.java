@@ -1,6 +1,7 @@
 package xyz.yuanmo.adapter;
 
 import xyz.yuanmo.model.Basketball;
+import xyz.yuanmo.model.Music;
 import xyz.yuanmo.service.KunKunService;
 
 /**
@@ -23,7 +24,15 @@ public abstract class AbstractAdapter implements KunKunService {
         }
         return String.valueOf(freestyle);
     }
+    @Override
+    public boolean dance(Music music) {
+        return false;
+    }
 
+    @Override
+    public boolean rap() {
+        return false;
+    }
     @Override
     public boolean playBall(Basketball basketball) { return true; }
 

@@ -250,6 +250,8 @@ public void singingOfClass() {
 
 ## 对象适配器模式
 
+> 原理：通过`组合`来实现适配器功能。
+
 通过将凡凡业务员初始化，`new`一个对象凡凡，让凡凡来帮忙使用auto tone，坤凡合体演绎鸡🐔你太美！
 
 ```java
@@ -311,6 +313,8 @@ public void singingOfObject() {
 
 ## 接口适配器模式
 
+> 通过`抽象类`来实现适配，这种适配方式有别于上面两种。
+
 上面两种实现方式，毫无例外的都覆写了坤坤的所有业务能力，略显笨重，那么适配器模式可以只将坤坤的一种或多种技能进行适配强化。
 
 自从坤坤唱歌也能发电之后，坤坤成功的选上了NBA篮球带使，但是却被广大直男们怒喷。坤坤很抑郁啊，于是就去找了当年美国校队啦啦队的队长Chaoyue Yang，希望能够从幸运光环一身的她找到点帮助。Chaoyue妹妹耐心地和坤坤说，你现在被直男们喷还是因为把篮球🏀玩出皮球的感觉，实属弟弟，篮球技术还是要偷学凡凡嗷~
@@ -340,6 +344,16 @@ public abstract class AbstractAdapter implements KunKunService {
         }
         return String.valueOf(freestyle);
     }
+    
+    @Override
+    public boolean dance(Music music) {
+        return false;
+    }
+    
+    @Override
+    public boolean rap() {
+        return false;
+    }
 
     @Override
     public boolean playBall(Basketball basketball) { return true; }
@@ -359,16 +373,6 @@ public class InterfaceAdapterImpl extends AbstractAdapter {
     @Override
     public String singing(String lyric) {
         return super.singing(lyric);
-    }
-
-    @Override
-    public boolean dance(Music music) {
-        return false;
-    }
-
-    @Override
-    public boolean rap() {
-        return false;
     }
     
     @Override

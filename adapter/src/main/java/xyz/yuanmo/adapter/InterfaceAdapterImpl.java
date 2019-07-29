@@ -18,15 +18,6 @@ public class InterfaceAdapterImpl extends AbstractAdapter {
         return super.singing(lyric);
     }
 
-    @Override
-    public boolean dance(Music music) {
-        return false;
-    }
-
-    @Override
-    public boolean rap() {
-        return false;
-    }
 
     @Override
     public boolean playBall(Basketball basketball) {
