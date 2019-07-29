@@ -2,8 +2,14 @@
 
 <br />
 
-# 设计模式的思想
+*最初只是为了做个人笔记，参考了前人的笔记和博客，在这里我用更接潮流、更接地气的例子来帮助加深理解记忆。*
 
+*由于本人技术水平也有限，着重点在于思想的理解，若出现任何错误、不恰当内容，欢迎各位前来[issues](https://github.com/Matthew-Han/java-design-pattern/issues)指正。*
+
+*感谢任何分享、开源学习教程的前辈，正是有你们这一群乐于奉献的人才让整个生态变得生机勃勃、让这个行业日新月异。*
+
+
+# 设计模式的思想
 
 
 什么是设计模式？放在两年前的我，不但不了解它，也不会去重视它。我只在乎能够猥琐实现，程序运行不报错。但是在版本快速迭代、需求明天就改、框架稳定升级的现在，自己也写了不少代码，积累了一些经验和知识，在快速成长的过程中，愈发觉得优秀的开发工程师就是会比平庸的开发工程师在设计、建模的过程中去花更多时间去思考、去推理。~~其实我觉得我也算是考虑问题比较全面、比较细致的人了（大雾~~）。
@@ -362,6 +368,16 @@ public class InterfaceAdapterImpl extends AbstractAdapter {
         return super.singing(lyric);
     }
 
+    @Override
+    public boolean dance(Music music) {
+        return false;
+    }
+
+    @Override
+    public boolean rap() {
+        return false;
+    }
+    
     @Override
     public boolean playBall(Basketball basketball) { 
         return super.playBall(basketball); 
