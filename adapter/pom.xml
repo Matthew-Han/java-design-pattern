@@ -10,7 +10,17 @@
 
   <name>adapter</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://www.yuanmo.xyz</url>
+
+  <developers>
+    <developer>
+      <id>yuanMo</id>
+      <name>MatthewHan(韩明初)</name>
+      <email>freedom233@foxmail.com</email>
+      <url>http://yuanmo.xyz</url>
+      <timezone>+8</timezone>
+    </developer>
+  </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
