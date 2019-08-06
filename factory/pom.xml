@@ -5,12 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>xyz.yuanmo</groupId>
-  <artifactId>singleton</artifactId>
+  <artifactId>factory</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
-  <name>singleton</name>
+  <name>factory</name>
   <!-- FIXME change it to the project's website -->
-  <url>https://www.yuanmo.xyz</url>
+  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,8 +29,8 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>RELEASE</version>
-      <scope>compile</scope>
+      <version>1.18.8</version>
+      <scope>provided</scope>
     </dependency>
 
   </dependencies>
