@@ -21,4 +21,16 @@
 
 Blog同步更新：[`https://www.yuanmo.xyz`](https://www.yuanmo.xyz)
 
+# 目录
+
+## 创建新模式
+
+- [单例模式](https://github.com/Matthew-Han/java-design-pattern/tree/master/singleton)
+
+- [工厂模式](https://github.com/Matthew-Han/java-design-pattern/tree/master/factory)
+
+## 结构型模式
+
+- [适配器模式](https://github.com/Matthew-Han/java-design-pattern/tree/master/adapter)
+
 
