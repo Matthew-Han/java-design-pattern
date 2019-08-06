@@ -23,7 +23,7 @@ Blog同步更新：[`https://www.yuanmo.xyz`](https://www.yuanmo.xyz)
 
 # 目录
 
-## 创建新模式
+## 创建型模式
 
 - [单例模式](https://github.com/Matthew-Han/java-design-pattern/tree/master/singleton)
 
