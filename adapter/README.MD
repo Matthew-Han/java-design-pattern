@@ -229,7 +229,7 @@ public class ClassAdapterImpl extends KrisServiceImpl implements KunKunService {
 }
 ```
 
-![类适配器](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter1-1.png)
+![类适配器](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter1-1.png/wm)
 
 ```java
 @Test
@@ -246,7 +246,7 @@ public void singingOfClass() {
 
 但是我们也可以看到这种实现方式，需要将坤坤的所有业务能力全部覆写一遍，实属⑧够灵活，其实我们还有接口适配器模式。
 
-![坤坤发电了吗](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter1-2.png)
+![坤坤发电了吗](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter1-2.png/wm)
 
 ## 对象适配器模式
 
@@ -305,9 +305,9 @@ public void singingOfObject() {
 }
 ```
 
-![对象适配器](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter2-1.png)
+![对象适配器](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter2-1.png/wm)
 
-![坤坤假唱实锤](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter2-2.png)
+![坤坤假唱实锤](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter2-2.png/wm)
 
 虽然是坤坤的舞台，但是却有加拿带🇨🇦电流声？假唱实锤！
 
@@ -382,7 +382,7 @@ public class InterfaceAdapterImpl extends AbstractAdapter {
 }
 ```
 
-![接口适配器](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter3-1.png)
+![接口适配器](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter3-1.png/wm)
 
 ```java
 @Test
@@ -402,6 +402,6 @@ public void playBallOfInterface() {
 }
 ```
 
-![2.0的auto tone 电力翻倍！](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter3-2.png)
+![2.0的auto tone 电力翻倍！](https://hexo-espada.oss-cn-hangzhou.aliyuncs.com/Espada/blog_pictures/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/adapter3-2.png/wm)
 
 坤坤通过研读抽象圣经`《AbstractAdapter》`后，不但学到了真正的篮球，还把auto tone成功升级到2.0，电力翻倍。
