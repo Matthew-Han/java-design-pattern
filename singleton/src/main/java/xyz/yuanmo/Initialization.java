@@ -11,7 +11,7 @@ public class Initialization {
 
     private static IKun iKun = new IKun();
 
-    public static void out(){
+    public static void out() {
         System.out.println("out");
     }
 
@@ -23,11 +23,11 @@ public class Initialization {
         System.out.println("非静态代码块");
     }
 
-    private Initialization(){
+    private Initialization() {
         System.out.println("构造器");
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         out();
         System.out.println("top-静态函数");
         new Initialization();
@@ -36,8 +36,11 @@ public class Initialization {
         System.out.println(s.slipping());
     }
 }
-class IKun{
 
-    IKun(){ System.out.println("静态变量"); }
+class IKun {
+
+    IKun() {
+        System.out.println("静态变量");
+    }
 
 }

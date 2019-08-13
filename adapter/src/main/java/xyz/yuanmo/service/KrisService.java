@@ -13,6 +13,7 @@ public interface KrisService {
 
     /**
      * 凡凡的充电计划√
+     *
      * @param lyric
      * @return
      */
@@ -20,6 +21,7 @@ public interface KrisService {
 
     /**
      * 苏⚡️韵⚡️锦⚡️，你⚡️这⚡️里⚡️欠⚡️我⚡️的⚡️用⚡️什⚡️么⚡️还⚡️？
+     *
      * @param id
      * @return
      */
@@ -27,6 +29,7 @@ public interface KrisService {
 
     /**
      * size一定要大，因为是大碗宽面!
+     *
      * @param size
      * @return
      */
@@ -34,6 +37,7 @@ public interface KrisService {
 
     /**
      * 真正的篮球🏀 vs 虚假的篮球🏀
+     *
      * @param basketball
      * @return
      */

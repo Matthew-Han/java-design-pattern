@@ -268,4 +268,4 @@ public void createMacBook() {
 
 # 避免滥用
 
-事实上，SpringBoot中已经用到了不少设计模式，在[单例模式](https://www.yuanmo.xyz/post/%E5%8D%83%E5%8D%83%E4%B8%87%E4%B8%87%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/)那章讲过的`Bean`就用到了单例模式和今天讲的工厂模式（很怀念第一次使用Spring框架手写第一个Bean的时候），模板方法(Template Method)，`Jdbctempldate`、`Redistemplate`等等。模式本身是对编程思想的扩展，我们在编写代码的时候还是要专注于业务本身，模式本身就是为了追求更高效率而诞生，保护需要加班的你。最靠谱的还是实践中慢慢总结，踩过的坑怎么去优化。
+事实上，SpringBoot中已经用到了不少设计模式，在[单例模式](http://www.yuanmo.xyz/post/fae94450-bd9c-11e9-bafd-2904b28e3726/)那章讲过的`Bean`就用到了单例模式和今天讲的工厂模式（很怀念第一次使用Spring框架手写第一个Bean的时候），模板方法(Template Method)，`Jdbctempldate`、`Redistemplate`等等。模式本身是对编程思想的扩展，我们在编写代码的时候还是要专注于业务本身，模式本身就是为了追求更高效率而诞生，保护需要加班的你。最靠谱的还是实践中慢慢总结，踩过的坑怎么去优化。

@@ -12,12 +12,14 @@ public class Singleton {
     /**
      * 把业务交给哥哥孙笑川打理
      */
-    private static class SunXiaoChuan{
+    private static class SunXiaoChuan {
         private static Singleton suspenders = new Singleton();
     }
-    private Singleton(){}
 
-    public static Singleton getInstance(){
+    private Singleton() {
+    }
+
+    public static Singleton getInstance() {
         return SunXiaoChuan.suspenders;
     }
 }

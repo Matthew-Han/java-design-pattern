@@ -15,6 +15,7 @@ public interface KunKunService {
 
     /**
      * 唱
+     *
      * @param lyric
      * @return
      */
@@ -22,6 +23,7 @@ public interface KunKunService {
 
     /**
      * 跳
+     *
      * @param music
      * @return
      */
@@ -29,12 +31,14 @@ public interface KunKunService {
 
     /**
      * rap
+     *
      * @return
      */
     boolean rap();
 
     /**
      * 虚假的篮球🏀
+     *
      * @param basketball
      * @return
      */

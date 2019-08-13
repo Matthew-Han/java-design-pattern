@@ -13,7 +13,7 @@ public class AdapterTest {
     public void singing() {
 
         KunKunService og = new KunKunServiceImpl();
-        assertEquals(og.singing("鸡你太美..."),"鸡你太美...");
+        assertEquals(og.singing("鸡你太美..."), "鸡你太美...");
         System.out.println(og.singing("鸡你太美..."));
     }
 }

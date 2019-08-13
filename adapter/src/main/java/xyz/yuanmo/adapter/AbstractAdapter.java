@@ -17,13 +17,14 @@ public abstract class AbstractAdapter implements KunKunService {
     public String singing(String lyric) {
         StringBuilder freestyle = new StringBuilder();
         String[] str = lyric.split("");
-        for(String c : str){
+        for (String c : str) {
             freestyle.append(c);
             // 2.0 电力加强了
             freestyle.append(" ⚡⚡ ");
         }
         return String.valueOf(freestyle);
     }
+
     @Override
     public boolean dance(Music music) {
         return false;
@@ -33,7 +34,10 @@ public abstract class AbstractAdapter implements KunKunService {
     public boolean rap() {
         return false;
     }
+
     @Override
-    public boolean playBall(Basketball basketball) { return true; }
+    public boolean playBall(Basketball basketball) {
+        return true;
+    }
 
 }

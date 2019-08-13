@@ -11,6 +11,7 @@ public interface MacBookFactory {
 
     /**
      * MacBook抽象工厂
+     *
      * @return
      */
     AbstractMacBookProduct createMacBook();

@@ -15,6 +15,7 @@ public class KrisServiceImpl implements KrisService {
 
     /**
      * auto tone ⑧用麦克风就天然打开
+     *
      * @return
      */
     @Override
@@ -22,7 +23,7 @@ public class KrisServiceImpl implements KrisService {
 
         StringBuilder freestyle = new StringBuilder();
         String[] str = lyric.split("");
-        for(String c : str){
+        for (String c : str) {
             freestyle.append(c);
             freestyle.append(" ⚡ ");
         }
@@ -41,7 +42,7 @@ public class KrisServiceImpl implements KrisService {
     }
 
     @Override
-    public boolean playBasketball(Basketball basketball){
+    public boolean playBasketball(Basketball basketball) {
         return true;
     }
 

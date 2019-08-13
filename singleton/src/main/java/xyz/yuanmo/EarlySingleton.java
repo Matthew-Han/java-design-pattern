@@ -14,7 +14,8 @@ public class EarlySingleton {
     /**
      * 独享的moment
      */
-    private EarlySingleton(){}
+    private EarlySingleton() {
+    }
 
     /**
      * 内部实例化一个白带对象
@@ -23,18 +24,20 @@ public class EarlySingleton {
 
     /**
      * 全局入口点
+     *
      * @return
      */
-    public static EarlySingleton getInstance(){
+    public static EarlySingleton getInstance() {
         return suspenders;
     }
 
     /**
      * 白带异常的演出
+     *
      * @return
      */
-    public Suspenders slipping(){
-        return new Suspenders("white","白带异常");
+    public Suspenders slipping() {
+        return new Suspenders("white", "白带异常");
     }
 
 
@@ -48,7 +51,7 @@ public class EarlySingleton {
 @Getter(value = AccessLevel.PUBLIC)
 @AllArgsConstructor
 @NoArgsConstructor
-class Suspenders{
+class Suspenders {
 
     private String color;
     private String action;

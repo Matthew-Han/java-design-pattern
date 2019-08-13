@@ -19,6 +19,7 @@ public class LazilySingleton {
 
     /**
      * 线程不安全
+     *
      * @return
      */
     public static LazilySingleton getInstance() {

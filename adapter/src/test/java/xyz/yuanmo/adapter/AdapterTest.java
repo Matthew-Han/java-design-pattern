@@ -16,7 +16,7 @@ public class AdapterTest {
     public void singingOfClass() {
         KunKunService c = new ClassAdapterImpl();
 
-        assertEquals(c.singing("鸡你太美!"),"鸡 ⚡ 你 ⚡ 太 ⚡ 美 ⚡ ! ⚡ ");
+        assertEquals(c.singing("鸡你太美!"), "鸡 ⚡ 你 ⚡ 太 ⚡ 美 ⚡ ! ⚡ ");
 
         System.out.println(c.singing("鸡你太美!"));
     }
@@ -26,7 +26,7 @@ public class AdapterTest {
         KrisService krisService = new KrisServiceImpl();
         KunKunService o = new ObjectAdapterImpl(krisService);
 
-        assertEquals(o.singing("鸡你太美~"),"鸡 ⚡ 你 ⚡ 太 ⚡ 美 ⚡ ~ ⚡ ");
+        assertEquals(o.singing("鸡你太美~"), "鸡 ⚡ 你 ⚡ 太 ⚡ 美 ⚡ ~ ⚡ ");
 
         System.out.println(o.singing("鸡你太美~"));
     }
@@ -35,7 +35,7 @@ public class AdapterTest {
     public void singingOfInterface() {
         KunKunService i = new InterfaceAdapterImpl();
 
-        assertEquals(i.singing("鸡你太美..."),"鸡 ⚡⚡ 你 ⚡⚡ 太 ⚡⚡ 美 ⚡⚡ . ⚡⚡ . ⚡⚡ . ⚡⚡ ");
+        assertEquals(i.singing("鸡你太美..."), "鸡 ⚡⚡ 你 ⚡⚡ 太 ⚡⚡ 美 ⚡⚡ . ⚡⚡ . ⚡⚡ . ⚡⚡ ");
 
         System.out.println(i.singing("鸡你太美..."));
     }

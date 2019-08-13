@@ -24,6 +24,7 @@ public abstract class AbstractMacBookProduct {
 
     /**
      * 打印结账语
+     *
      * @return
      */
     public abstract String printSlogan();
