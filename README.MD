@@ -4,6 +4,8 @@
 [![Gitter](https://badges.gitter.im/情感交流地带/community.svg)](https://gitter.im/情感交流地带/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/matthew-han/java-design-pattern?color=%23CC99CC)
 ![GitHub stars](https://img.shields.io/github/stars/Matthew-Han/java-design-pattern?label=star&style=social)
+<a title="Hits" target="_blank" href="https://github.com/Matthew-Han/java-design-pattern"><img src="https://hits.b3log.org/b3log/hits.svg"></a>
+
 # 前言
 
 -	最初只是为了做个人笔记，参考了前人的笔记和博客，在这里我用更接潮流、更接地气的例子来帮助加深理解记忆。
